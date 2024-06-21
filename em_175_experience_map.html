@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_324ef5b634b12a67e16499c7ff3fe39f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_324ef5b634b12a67e16499c7ff3fe39f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_324ef5b634b12a67e16499c7ff3fe39f = L.map(
+                "map_324ef5b634b12a67e16499c7ff3fe39f",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c62a0a3f52603352d026ca8509245a51 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+            var marker_3ea188f9cd45a87f09ec70e6637988fa = L.marker(
+                [28.515672, -98.799728],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_f1eff003077953b1b75e2a8798e6f361 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfc9d5f5be5c046cad8dc85e416841eb = $(`<div id="html_dfc9d5f5be5c046cad8dc85e416841eb" style="width: 100.0%; height: 100.0%;">Wells drilled: 4</div>`)[0];
+            popup_f1eff003077953b1b75e2a8798e6f361.setContent(html_dfc9d5f5be5c046cad8dc85e416841eb);
+        
+
+        marker_3ea188f9cd45a87f09ec70e6637988fa.bindPopup(popup_f1eff003077953b1b75e2a8798e6f361)
+        ;
+
+        
+    
+    
+            var marker_8d2e877d8d85cd9dc7a3beed0b400e23 = L.marker(
+                [28.515676, -98.799665],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_2713345723b4387cfa0519a1860cf7c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_880a41197aa54f39ea892035c11e0260 = $(`<div id="html_880a41197aa54f39ea892035c11e0260" style="width: 100.0%; height: 100.0%;">Wells drilled: 4</div>`)[0];
+            popup_2713345723b4387cfa0519a1860cf7c9.setContent(html_880a41197aa54f39ea892035c11e0260);
+        
+
+        marker_8d2e877d8d85cd9dc7a3beed0b400e23.bindPopup(popup_2713345723b4387cfa0519a1860cf7c9)
+        ;
+
+        
+    
+    
+            var marker_302c6d82670af4fdf2e763122177c44e = L.marker(
+                [28.576325, -99.346304],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_e97b767741a059e47062e7778a666faf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e59bea64ef82b0fa1624d829217b2fad = $(`<div id="html_e59bea64ef82b0fa1624d829217b2fad" style="width: 100.0%; height: 100.0%;">Wells drilled: 3</div>`)[0];
+            popup_e97b767741a059e47062e7778a666faf.setContent(html_e59bea64ef82b0fa1624d829217b2fad);
+        
+
+        marker_302c6d82670af4fdf2e763122177c44e.bindPopup(popup_e97b767741a059e47062e7778a666faf)
+        ;
+
+        
+    
+    
+            var marker_fbea8f285c9d67034718b4670afe265c = L.marker(
+                [28.640991, -98.504886],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_208ba329df0668f815b71c0c3d1f0993 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14bbe62f98a873451d69fd09c9a57aa4 = $(`<div id="html_14bbe62f98a873451d69fd09c9a57aa4" style="width: 100.0%; height: 100.0%;">Wells drilled: 2</div>`)[0];
+            popup_208ba329df0668f815b71c0c3d1f0993.setContent(html_14bbe62f98a873451d69fd09c9a57aa4);
+        
+
+        marker_fbea8f285c9d67034718b4670afe265c.bindPopup(popup_208ba329df0668f815b71c0c3d1f0993)
+        ;
+
+        
+    
+    
+            var marker_804898aea49f66bd5fffff78a7cb6696 = L.marker(
+                [28.640991, -98.505073],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_9322ccc47b41946e06ec53c524c1cebc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8353c1f2eae025292c980a38765dee0b = $(`<div id="html_8353c1f2eae025292c980a38765dee0b" style="width: 100.0%; height: 100.0%;">Wells drilled: 3</div>`)[0];
+            popup_9322ccc47b41946e06ec53c524c1cebc.setContent(html_8353c1f2eae025292c980a38765dee0b);
+        
+
+        marker_804898aea49f66bd5fffff78a7cb6696.bindPopup(popup_9322ccc47b41946e06ec53c524c1cebc)
+        ;
+
+        
+    
+    
+            var marker_c96327fb37a02c860e75fa09e5954672 = L.marker(
+                [28.640992, -98.505073],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_2bbb4cc10712da82f78e8efcea8040c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09a115ea5673b09dd409002acbb978a2 = $(`<div id="html_09a115ea5673b09dd409002acbb978a2" style="width: 100.0%; height: 100.0%;">Wells drilled: 4</div>`)[0];
+            popup_2bbb4cc10712da82f78e8efcea8040c1.setContent(html_09a115ea5673b09dd409002acbb978a2);
+        
+
+        marker_c96327fb37a02c860e75fa09e5954672.bindPopup(popup_2bbb4cc10712da82f78e8efcea8040c1)
+        ;
+
+        
+    
+    
+            var marker_2c5518d4e4cbd3bf32e6ee3bd3a9ee41 = L.marker(
+                [28.728735, -99.038419],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_1de43ef2e942aef27910923caa58e72a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_508b3c63e877867776a918528823ab43 = $(`<div id="html_508b3c63e877867776a918528823ab43" style="width: 100.0%; height: 100.0%;">Wells drilled: 1</div>`)[0];
+            popup_1de43ef2e942aef27910923caa58e72a.setContent(html_508b3c63e877867776a918528823ab43);
+        
+
+        marker_2c5518d4e4cbd3bf32e6ee3bd3a9ee41.bindPopup(popup_1de43ef2e942aef27910923caa58e72a)
+        ;
+
+        
+    
+    
+            var marker_fd430f6c7ea31b4dc00acb40f1010888 = L.marker(
+                [31.235669, -103.207312],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_58c7db74fa6fa3472552a80c695e99f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db3956035408a0bea0cfb355044619e3 = $(`<div id="html_db3956035408a0bea0cfb355044619e3" style="width: 100.0%; height: 100.0%;">Wells drilled: 1</div>`)[0];
+            popup_58c7db74fa6fa3472552a80c695e99f7.setContent(html_db3956035408a0bea0cfb355044619e3);
+        
+
+        marker_fd430f6c7ea31b4dc00acb40f1010888.bindPopup(popup_58c7db74fa6fa3472552a80c695e99f7)
+        ;
+
+        
+    
+    
+            var marker_0ca034ac25dea7db7d239c8efa84b190 = L.marker(
+                [31.326629, -94.278975],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_bb8117552af54de5365fbd73275248a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_895f0a5a05cc09bbd8e04235254ed699 = $(`<div id="html_895f0a5a05cc09bbd8e04235254ed699" style="width: 100.0%; height: 100.0%;">Wells drilled: 1</div>`)[0];
+            popup_bb8117552af54de5365fbd73275248a2.setContent(html_895f0a5a05cc09bbd8e04235254ed699);
+        
+
+        marker_0ca034ac25dea7db7d239c8efa84b190.bindPopup(popup_bb8117552af54de5365fbd73275248a2)
+        ;
+
+        
+    
+    
+            var marker_07ed1c1e5594a5f6153a2ba9062f7200 = L.marker(
+                [31.569344, -106.622621],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_fb5cbf30452989543b480a09cb408c80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba5246c0bb24c09ac870054899294aa8 = $(`<div id="html_ba5246c0bb24c09ac870054899294aa8" style="width: 100.0%; height: 100.0%;">Wells drilled: 3</div>`)[0];
+            popup_fb5cbf30452989543b480a09cb408c80.setContent(html_ba5246c0bb24c09ac870054899294aa8);
+        
+
+        marker_07ed1c1e5594a5f6153a2ba9062f7200.bindPopup(popup_fb5cbf30452989543b480a09cb408c80)
+        ;
+
+        
+    
+    
+            var marker_f3b9e967e1a63274ebd2ae6aef55b5bf = L.marker(
+                [31.569435, -103.889288],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_72419c90293606919d67aeb76ff590b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2909b493eb5a81531a21cfe4d6eef9f8 = $(`<div id="html_2909b493eb5a81531a21cfe4d6eef9f8" style="width: 100.0%; height: 100.0%;">Wells drilled: 10</div>`)[0];
+            popup_72419c90293606919d67aeb76ff590b2.setContent(html_2909b493eb5a81531a21cfe4d6eef9f8);
+        
+
+        marker_f3b9e967e1a63274ebd2ae6aef55b5bf.bindPopup(popup_72419c90293606919d67aeb76ff590b2)
+        ;
+
+        
+    
+    
+            var marker_efeeb9add9c4753a190e87707f027e4b = L.marker(
+                [32.066039, -103.782819],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_fb2091b91e87e3f6998ea8f001daa35e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f3a31379c7ee0af54e3693bedfa64b2 = $(`<div id="html_8f3a31379c7ee0af54e3693bedfa64b2" style="width: 100.0%; height: 100.0%;">Wells drilled: 5</div>`)[0];
+            popup_fb2091b91e87e3f6998ea8f001daa35e.setContent(html_8f3a31379c7ee0af54e3693bedfa64b2);
+        
+
+        marker_efeeb9add9c4753a190e87707f027e4b.bindPopup(popup_fb2091b91e87e3f6998ea8f001daa35e)
+        ;
+
+        
+    
+    
+            var marker_29a6dc6d916fe186998f68326e1ca627 = L.marker(
+                [32.078078, -103.902153],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_3d8b51498e2439c597df32b9f6c03698 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_790a70fac21bdba1686135ed3e5f3b13 = $(`<div id="html_790a70fac21bdba1686135ed3e5f3b13" style="width: 100.0%; height: 100.0%;">Wells drilled: 12</div>`)[0];
+            popup_3d8b51498e2439c597df32b9f6c03698.setContent(html_790a70fac21bdba1686135ed3e5f3b13);
+        
+
+        marker_29a6dc6d916fe186998f68326e1ca627.bindPopup(popup_3d8b51498e2439c597df32b9f6c03698)
+        ;
+
+        
+    
+    
+            var marker_9a32005265a43f14b6f7efa67744d0e5 = L.marker(
+                [32.083037, -102.043024],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_4d5f72f0236d7a4427c028e9c494f83d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4f36eed310763767c9fbba7aad1e60d = $(`<div id="html_f4f36eed310763767c9fbba7aad1e60d" style="width: 100.0%; height: 100.0%;">Wells drilled: 4</div>`)[0];
+            popup_4d5f72f0236d7a4427c028e9c494f83d.setContent(html_f4f36eed310763767c9fbba7aad1e60d);
+        
+
+        marker_9a32005265a43f14b6f7efa67744d0e5.bindPopup(popup_4d5f72f0236d7a4427c028e9c494f83d)
+        ;
+
+        
+    
+    
+            var marker_cf08c9879607a3fb12dc3d6422ad7a14 = L.marker(
+                [32.123823, -103.567265],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_ab6a47ef7cf5c8502e563c09afdf95ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f95869c7b5c6ec54fcd0e58ba2735861 = $(`<div id="html_f95869c7b5c6ec54fcd0e58ba2735861" style="width: 100.0%; height: 100.0%;">Wells drilled: 1</div>`)[0];
+            popup_ab6a47ef7cf5c8502e563c09afdf95ad.setContent(html_f95869c7b5c6ec54fcd0e58ba2735861);
+        
+
+        marker_cf08c9879607a3fb12dc3d6422ad7a14.bindPopup(popup_ab6a47ef7cf5c8502e563c09afdf95ad)
+        ;
+
+        
+    
+    
+            var marker_876ac9393332e69d4178e022bad3830a = L.marker(
+                [32.166045, -103.643196],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_d126fc04ba28f94bb4dc04b48704384f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c11f6024dac3477c3b601948d4ab4222 = $(`<div id="html_c11f6024dac3477c3b601948d4ab4222" style="width: 100.0%; height: 100.0%;">Wells drilled: 6</div>`)[0];
+            popup_d126fc04ba28f94bb4dc04b48704384f.setContent(html_c11f6024dac3477c3b601948d4ab4222);
+        
+
+        marker_876ac9393332e69d4178e022bad3830a.bindPopup(popup_d126fc04ba28f94bb4dc04b48704384f)
+        ;
+
+        
+    
+    
+            var marker_122974f36ae107ece80b80a21854bb9d = L.marker(
+                [32.168578, -103.547803],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_19f6a57d7cfd2cabe7287a7e02ecc85b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cf829418cc7d93e217dd103c362fedf = $(`<div id="html_1cf829418cc7d93e217dd103c362fedf" style="width: 100.0%; height: 100.0%;">Wells drilled: 6</div>`)[0];
+            popup_19f6a57d7cfd2cabe7287a7e02ecc85b.setContent(html_1cf829418cc7d93e217dd103c362fedf);
+        
+
+        marker_122974f36ae107ece80b80a21854bb9d.bindPopup(popup_19f6a57d7cfd2cabe7287a7e02ecc85b)
+        ;
+
+        
+    
+    
+            var marker_4c9e0105318b9d1a3ead507c3a8fdbb5 = L.marker(
+                [32.209224, -103.647403],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_08b0217b6ba2f2e93c49ec7139b1d430 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c4e289559b5de294f774be2e94a4903 = $(`<div id="html_9c4e289559b5de294f774be2e94a4903" style="width: 100.0%; height: 100.0%;">Wells drilled: 5</div>`)[0];
+            popup_08b0217b6ba2f2e93c49ec7139b1d430.setContent(html_9c4e289559b5de294f774be2e94a4903);
+        
+
+        marker_4c9e0105318b9d1a3ead507c3a8fdbb5.bindPopup(popup_08b0217b6ba2f2e93c49ec7139b1d430)
+        ;
+
+        
+    
+    
+            var marker_9af6b290204663d69295f0fde0c01b33 = L.marker(
+                [32.259381, -103.672969],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_10aea829915b74e97c98edfcfbea5493 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cd9e0e52cddef9569e106f11e08d0f8 = $(`<div id="html_6cd9e0e52cddef9569e106f11e08d0f8" style="width: 100.0%; height: 100.0%;">Wells drilled: 6</div>`)[0];
+            popup_10aea829915b74e97c98edfcfbea5493.setContent(html_6cd9e0e52cddef9569e106f11e08d0f8);
+        
+
+        marker_9af6b290204663d69295f0fde0c01b33.bindPopup(popup_10aea829915b74e97c98edfcfbea5493)
+        ;
+
+        
+    
+    
+            var marker_a0070cdd3a782cb0e94a478434f17fa4 = L.marker(
+                [32.327211, -104.330374],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_3ba79be31d85ee341726cf553b45f19d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07f7d7eb5498483ae18ff79b6fcca966 = $(`<div id="html_07f7d7eb5498483ae18ff79b6fcca966" style="width: 100.0%; height: 100.0%;">Wells drilled: 4</div>`)[0];
+            popup_3ba79be31d85ee341726cf553b45f19d.setContent(html_07f7d7eb5498483ae18ff79b6fcca966);
+        
+
+        marker_a0070cdd3a782cb0e94a478434f17fa4.bindPopup(popup_3ba79be31d85ee341726cf553b45f19d)
+        ;
+
+        
+    
+    
+            var marker_5f905a71b93892fd4e9e6e29f7e9f598 = L.marker(
+                [32.505626, -94.216471],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_04d12677eca819350b7f49f3ab5c1d7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de53db49e3b53c259fedcfbef0972d91 = $(`<div id="html_de53db49e3b53c259fedcfbef0972d91" style="width: 100.0%; height: 100.0%;">Wells drilled: 1</div>`)[0];
+            popup_04d12677eca819350b7f49f3ab5c1d7a.setContent(html_de53db49e3b53c259fedcfbef0972d91);
+        
+
+        marker_5f905a71b93892fd4e9e6e29f7e9f598.bindPopup(popup_04d12677eca819350b7f49f3ab5c1d7a)
+        ;
+
+        
+    
+    
+            var marker_526e3a348a9f59cb910e89c748821728 = L.marker(
+                [35.128504, -97.498061],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_1e7a4dfa842b7e1049fa8c55cba2026c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3294819fb8877c6d60fd39faf9e9b28f = $(`<div id="html_3294819fb8877c6d60fd39faf9e9b28f" style="width: 100.0%; height: 100.0%;">Wells drilled: 1</div>`)[0];
+            popup_1e7a4dfa842b7e1049fa8c55cba2026c.setContent(html_3294819fb8877c6d60fd39faf9e9b28f);
+        
+
+        marker_526e3a348a9f59cb910e89c748821728.bindPopup(popup_1e7a4dfa842b7e1049fa8c55cba2026c)
+        ;
+
+        
+    
+    
+            var marker_2fa9025dd67e3f397a51e99da41ae05a = L.marker(
+                [47.934564, -103.74937],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_f6480016eba5b44460c14b52cd0491ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a37ca0eb92dff6f543002711de8d33d6 = $(`<div id="html_a37ca0eb92dff6f543002711de8d33d6" style="width: 100.0%; height: 100.0%;">Wells drilled: 4</div>`)[0];
+            popup_f6480016eba5b44460c14b52cd0491ba.setContent(html_a37ca0eb92dff6f543002711de8d33d6);
+        
+
+        marker_2fa9025dd67e3f397a51e99da41ae05a.bindPopup(popup_f6480016eba5b44460c14b52cd0491ba)
+        ;
+
+        
+    
+    
+            var marker_c6539aabec9fec39730235dfe972b030 = L.marker(
+                [52.479446, -115.323263],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_2b0f9a9e46af2cbeeb9a1c5c0550598e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39d57d69c0f13d35d801353152b6611e = $(`<div id="html_39d57d69c0f13d35d801353152b6611e" style="width: 100.0%; height: 100.0%;">Wells drilled: 4</div>`)[0];
+            popup_2b0f9a9e46af2cbeeb9a1c5c0550598e.setContent(html_39d57d69c0f13d35d801353152b6611e);
+        
+
+        marker_c6539aabec9fec39730235dfe972b030.bindPopup(popup_2b0f9a9e46af2cbeeb9a1c5c0550598e)
+        ;
+
+        
+    
+    
+            var marker_27dd3e9d7adf7302232f1fd2c7a02db5 = L.marker(
+                [54.289272, -117.632258],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_dd9e9fb1f54177f87ae9a41d31617c6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72109c9a053557746036ce8c1e5a873d = $(`<div id="html_72109c9a053557746036ce8c1e5a873d" style="width: 100.0%; height: 100.0%;">Wells drilled: 2</div>`)[0];
+            popup_dd9e9fb1f54177f87ae9a41d31617c6f.setContent(html_72109c9a053557746036ce8c1e5a873d);
+        
+
+        marker_27dd3e9d7adf7302232f1fd2c7a02db5.bindPopup(popup_dd9e9fb1f54177f87ae9a41d31617c6f)
+        ;
+
+        
+    
+    
+            var marker_9bcb76b248668944837cbc63f9d021cd = L.marker(
+                [55.065129, -110.654666],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_fa814774629c774dd7356b522065dea0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8437aa356142c58f300b7122c13e1b6 = $(`<div id="html_b8437aa356142c58f300b7122c13e1b6" style="width: 100.0%; height: 100.0%;">Wells drilled: 1</div>`)[0];
+            popup_fa814774629c774dd7356b522065dea0.setContent(html_b8437aa356142c58f300b7122c13e1b6);
+        
+
+        marker_9bcb76b248668944837cbc63f9d021cd.bindPopup(popup_fa814774629c774dd7356b522065dea0)
+        ;
+
+        
+    
+    
+            var marker_3d97a1d0639cdd052d0911c6698df71d = L.marker(
+                [55.069967, -110.387175],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_e4e6cf65b8bb271c73042bc9ac9728da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbc91a177efbe7e0f24db6706b6abf92 = $(`<div id="html_fbc91a177efbe7e0f24db6706b6abf92" style="width: 100.0%; height: 100.0%;">Wells drilled: 1</div>`)[0];
+            popup_e4e6cf65b8bb271c73042bc9ac9728da.setContent(html_fbc91a177efbe7e0f24db6706b6abf92);
+        
+
+        marker_3d97a1d0639cdd052d0911c6698df71d.bindPopup(popup_e4e6cf65b8bb271c73042bc9ac9728da)
+        ;
+
+        
+    
+    
+            var marker_a7bb4babceb7bd51b19dd9d1d26e5dfc = L.marker(
+                [55.581739, -110.774958],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_69dc34d5d6f805bf362409cdb6f97677 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f91db0a1b0963ec87bbf5b6296f9775d = $(`<div id="html_f91db0a1b0963ec87bbf5b6296f9775d" style="width: 100.0%; height: 100.0%;">Wells drilled: 1</div>`)[0];
+            popup_69dc34d5d6f805bf362409cdb6f97677.setContent(html_f91db0a1b0963ec87bbf5b6296f9775d);
+        
+
+        marker_a7bb4babceb7bd51b19dd9d1d26e5dfc.bindPopup(popup_69dc34d5d6f805bf362409cdb6f97677)
+        ;
+
+        
+    
+    
+            var marker_f0f9a32beed751ec561a4282ee699abf = L.marker(
+                [55.882722, -120.522033],
+                {}
+            ).addTo(map_324ef5b634b12a67e16499c7ff3fe39f);
+        
+    
+        var popup_f1f8845d96b64e2ea5338bdf6e5a33cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_640bdbfdea0d3d526dbd635acd28f127 = $(`<div id="html_640bdbfdea0d3d526dbd635acd28f127" style="width: 100.0%; height: 100.0%;">Wells drilled: 2</div>`)[0];
+            popup_f1f8845d96b64e2ea5338bdf6e5a33cd.setContent(html_640bdbfdea0d3d526dbd635acd28f127);
+        
+
+        marker_f0f9a32beed751ec561a4282ee699abf.bindPopup(popup_f1f8845d96b64e2ea5338bdf6e5a33cd)
+        ;
+
+        
+    
+</script>
+</html>
